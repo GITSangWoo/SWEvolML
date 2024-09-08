@@ -16,4 +16,10 @@ license = {text = "MIT"}
 
 
 [tool.pdm]
-distribution = false
+distribution = true
+
+[project.urls]
+Homepage = "https://github.com/GITSangWoo/SWEvolML"
+Issues = "https://github.com/GITSangWoo/SWEvolML/issues"
+
+
