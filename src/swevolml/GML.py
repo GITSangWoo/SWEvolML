@@ -112,11 +112,12 @@ else:
 
 
 
+print("\n")
 print("[정답율]")
 print_growth(int((len(df[df['MLanswer']==df['ranswer']])/len(df))*100))
 print("[입력 데이터 위치]")
 drawplot(df)
-
+print("\n")
 os.makedirs(os.path.dirname(data_path), exist_ok = True)
 df.to_csv(file_path,index=False)
 
